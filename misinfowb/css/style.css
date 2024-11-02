@@ -44,7 +44,7 @@ nav .nav-tabs:hover {
 
 /* Main Backdrop - index.html */
 
-.backdrop {
+.backdrop-container {
     background-image: url(../img/backdrop.jpg);
     background-size: cover;
     background-color: rgba(35, 37, 54, 0.8);
@@ -57,11 +57,7 @@ nav .nav-tabs:hover {
     object-fit: cover;
     display: flex;
     align-items: center;
-}
-
-.backdrop-container {
-    display: flex;
-    justify-content: space-around;      
+    justify-content: space-around; 
 }
 
 .backdrop-welcome {
