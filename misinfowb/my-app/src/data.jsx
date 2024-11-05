@@ -1,4 +1,4 @@
-export const data = [
+export const gameData = [
     {
         'title': 'Euphorigen Investigation',
         'desc': 'A digital media literacy game where players work together to investigate misleading information and uncover the truth behind Euphorigen, a fictional substance. Players collaborate as journalists to verify facts and identify misinformation.',
