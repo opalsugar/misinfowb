@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: #fafafa;
+}
+
 p {
     margin-top: 1rem;
 }
@@ -10,7 +14,7 @@ p {
 /* Navigation - nav */
 
 nav {
-    background-color: #1C1B22;
+    background-color: black;
     color: white;
     font-size: 2em;
     font-family: "Kanit";
