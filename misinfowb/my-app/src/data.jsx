@@ -19,6 +19,8 @@ export const gameData = [
         'genre': ['Puzzle', 'Role-playing', 'Adventure', 'Escape'],
         'type': ['Group'],
         'Target players': ['Teens', 'Adults'],
+        'Link Labels': ['Website'],
+        'Links': ['https://lokisloop.org/games/'],
         'Developer': 'UW CIP',
         'Release Year': '2023',
         'img': './img/galaxy.png'
@@ -30,6 +32,8 @@ export const gameData = [
         'genre': ['Simulation', 'Social', 'Role-playing'],
         'type': ['Individual', 'Group'],
         'Target players': ['Teens', 'Adults'],
+        'Link Labels': ['Website'],
+        'Links': ['https://apps.deakin.edu.au/library/dlm/twine/MisinformationGame.html'],
         'Developer': 'Luke Watsford - Deakin University',
         'Release Year': '2022',
         'img': './img/libertas.png'
