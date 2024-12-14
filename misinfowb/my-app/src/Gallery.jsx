@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import "./style.css";
 import { gameData } from './data';
+import { getImageURL } from './utils/image-util';
 
 export default function Gallery() {
   const [search, setSearch] = useState('');
@@ -92,19 +94,17 @@ export default function Gallery() {
           <div className="filter-item">
             <h5>Target Players:</h5>
             <form>
-              <p><label><input type="checkbox" className="filter" value="Elementary" checked={targetFilter.includes("Elementary")} onChange={handleTarget} />Elementary</label></p>
-              <p><label><input type="checkbox" className="filter" value="Middle School" checked={targetFilter.includes("Middle School")} onChange={handleTarget} />Middle School</label></p>
-              <p><label><input type="checkbox" className="filter" value="High School" checked={targetFilter.includes("High School")} onChange={handleTarget} />High School</label></p>
+              <p><label><input type="checkbox" className="filter" value="Teens" checked={targetFilter.includes("Teens")} onChange={handleTarget} />Teens</label></p>
+              <p><label><input type="checkbox" className="filter" value="Adults" checked={targetFilter.includes("Adults")} onChange={handleTarget} />Adults</label></p>
+              <p><label><input type="checkbox" className="filter" value="Elder" checked={targetFilter.includes("Elder")} onChange={handleTarget} />Elder</label></p>
               <p><label><input type="checkbox" className="filter" value="Everyone" checked={targetFilter.includes("Everyone")} onChange={handleTarget} />Everyone</label></p>
             </form>
           </div>
           <div className="filter-item">
             <h5>Type:</h5>
             <form>
-              <p><label><input type="checkbox" className="filter" value="Single-player" checked={typeFilter.includes("Single-player")} onChange={handleType} />Single-player</label></p>
-              <p><label><input type="checkbox" className="filter" value="Multi-player" checked={typeFilter.includes("Multi-player")} onChange={handleType} />Multi-player</label></p>
-              <p><label><input type="checkbox" className="filter" value="Online" checked={typeFilter.includes("Online")} onChange={handleType} />Online</label></p>
-              <p><label><input type="checkbox" className="filter" value="Virtual" checked={typeFilter.includes("Virtual")} onChange={handleType} />Virtual</label></p>
+              <p><label><input type="checkbox" className="filter" value="Individual" checked={typeFilter.includes("Individual")} onChange={handleType} />Individual</label></p>
+              <p><label><input type="checkbox" className="filter" value="Group" checked={typeFilter.includes("Group")} onChange={handleType} />Group</label></p>
             </form>
           </div>
           <div className="filter-item">
@@ -118,7 +118,7 @@ export default function Gallery() {
           </div>
         </div>
       </div>
-      <div class="gallery-container">
+      <div className="gallery-container">
         {gameData.filter((item) => {
           return item.title.toLowerCase().includes(search.toLowerCase());
         }).filter((item) => {
@@ -133,11 +133,11 @@ export default function Gallery() {
           return (
             <div className="gallery-item">
               <div className="gallery-image">
-                <img src={item.img} alt="Game" />
+                <img src={getImageURL(item.img)} alt="Game" />
               </div>
-              <a href="./game1.html">
+              <Link to={`/misinfowb/${item.id}`}>
                 <h1>{item.title}</h1>
-              </a>
+              </Link>
               <p>{item.desc}</p>
               <p>Format: {item.format.toString()}</p>
               <p>Genre: {item.genre.toString()}</p>

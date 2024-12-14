@@ -3,21 +3,19 @@ import "./style.css";
 
 export default function Backdrop() {
 
-    return (
-        <div className= "backdrop-container">
-        <div className="backdrop-welcome">
-          <h1>Welcome to the misinformation game directory!</h1>
-        </div>
-        <div className="backdrop-about">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.</p>
-        </div>
+  return (
+    <div className="backdrop-container">
+      <div className="backdrop-welcome">
+        <h1>Welcome to the misinformation game directory!</h1>
       </div>
+      <div className="backdrop-about">
+        <p>This collection of games includes interactive, research-based games designed to educate players on
+          misinformation and its impact on society. Through gamified, educational experiences, you will
+          develop critical thinking skills, learn to identify misinformation, and explore media and information
+          literacy strategies. Use this as a resource for education, or just to have fun while learning more about misinformation!</p>
+      </div>
+    </div>
 
-    );
+  );
 
 };  
