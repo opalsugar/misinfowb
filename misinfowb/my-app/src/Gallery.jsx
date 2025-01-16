@@ -76,46 +76,42 @@ export default function Gallery() {
   };
 
   return (
-    <>
+    <div className="main-section">
       <div>
         <div className="search-container">
-          <div className="search-input">
-            <input className="searchbar" onChange={handleSearchInput} value={search} type="text" placeholder="Search by title..." />
-          </div>
+          <img src={getImageURL("search.png")} />
+          <input className="searchbar" onChange={handleSearchInput} value={search} type="text" placeholder="Search by title..." />
         </div>
+
         <div className="filter-container">
-          <div className="filter-item">
-            <h5>Format:</h5>
-            <form>
-              <p><label><input type="checkbox" className="filter" value="Online" checked={formatFilter.includes("Online")} onChange={handleFormat} />Online</label></p>
-              <p><label><input type="checkbox" className="filter" value="Physical" checked={formatFilter.includes("Physical")} onChange={handleFormat} />Physical</label></p>
-            </form>
-          </div>
-          <div className="filter-item">
-            <h5>Target Players:</h5>
-            <form>
-              <p><label><input type="checkbox" className="filter" value="Teens" checked={targetFilter.includes("Teens")} onChange={handleTarget} />Teens</label></p>
-              <p><label><input type="checkbox" className="filter" value="Adults" checked={targetFilter.includes("Adults")} onChange={handleTarget} />Adults</label></p>
-              <p><label><input type="checkbox" className="filter" value="Elder" checked={targetFilter.includes("Elder")} onChange={handleTarget} />Elder</label></p>
-              <p><label><input type="checkbox" className="filter" value="Everyone" checked={targetFilter.includes("Everyone")} onChange={handleTarget} />Everyone</label></p>
-            </form>
-          </div>
-          <div className="filter-item">
-            <h5>Type:</h5>
-            <form>
-              <p><label><input type="checkbox" className="filter" value="Individual" checked={typeFilter.includes("Individual")} onChange={handleType} />Individual</label></p>
-              <p><label><input type="checkbox" className="filter" value="Group" checked={typeFilter.includes("Group")} onChange={handleType} />Group</label></p>
-            </form>
-          </div>
-          <div className="filter-item">
-            <h5>Genre:</h5>
-            <form>
-              <p><label><input type="checkbox" className="filter" value="Action" checked={genreFilter.includes("Action")} onChange={handleGenre} />Action</label></p>
-              <p><label><input type="checkbox" className="filter" value="Puzzle" checked={genreFilter.includes("Puzzle")} onChange={handleGenre} />Puzzle</label></p>
-              <p><label><input type="checkbox" className="filter" value="Roleplaying" checked={genreFilter.includes("Roleplaying")} onChange={handleGenre} />Roleplaying</label></p>
-              <p><label><input type="checkbox" className="filter" value="Simulation" checked={genreFilter.includes("Simulation")} onChange={handleGenre} />Simulation</label></p>
-            </form>
-          </div>
+          <select className="filter-item" m>
+            <option>Format</option>
+            <option className="filter" value="Online" checked={formatFilter.includes("Online")} onChange={handleFormat}>Online</option>
+            <option className="filter" value="Physical" checked={formatFilter.includes("Physical")} onChange={handleFormat}>Physical</option>
+          </select>
+
+          <select className="filter-item">
+            <option>Target Players</option>
+            <option className="filter" value="Teens" checked={targetFilter.includes("Teens")} onChange={handleTarget}>Teens</option>
+            <option className="filter" value="Adults" checked={targetFilter.includes("Adults")} onChange={handleTarget}>Adults</option>
+            <option className="filter" value="Elder" checked={targetFilter.includes("Elder")} onChange={handleTarget}>Elder</option>
+            <option lassName="filter" value="Everyone" checked={targetFilter.includes("Everyone")} onChange={handleTarget}>Everyone</option>
+          </select>
+
+          <select className="filter-item">
+            <option>Type</option>
+            <option className="filter" value="Individual" checked={typeFilter.includes("Individual")} onChange={handleType}>Individual</option>
+            <option className="filter" value="Group" checked={typeFilter.includes("Group")} onChange={handleType}>Group</option>
+          </select>
+
+          <select className="filter-item">
+            <option>Genre</option>
+            <option className="filter" value="Action" checked={genreFilter.includes("Action")} onChange={handleGenre}>Action</option>
+            <option className="filter" value="Puzzle" checked={genreFilter.includes("Puzzle")} onChange={handleGenre}>Puzzle</option>
+            <option className="filter" value="Roleplaying" checked={genreFilter.includes("Roleplaying")} onChange={handleGenre}>Roleplaying</option>
+            <option className="filter" value="Simulation" checked={genreFilter.includes("Simulation")} onChange={handleGenre}>Simulation</option>
+          </select>
+
         </div>
       </div>
       <div className="gallery-container">
@@ -135,7 +131,7 @@ export default function Gallery() {
               <div className="gallery-image">
                 <img src={getImageURL(item.img)} alt="Game" />
               </div>
-              <Link to={`/misinfowb/${item.id}`}>
+              <Link className="gallery-link" to={`/misinfowb/${item.id}`}>
                 <h1>{item.title}</h1>
               </Link>
               <p>{item.desc}</p>
@@ -148,6 +144,6 @@ export default function Gallery() {
 
         })}
       </div>
-    </>
+    </div>
   );
 };

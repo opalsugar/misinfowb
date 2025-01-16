@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "./style.css";
-import Nav from './Nav';
+import Header from './Header';
 import MainPage from './MainPage';
 import GamePage from './GamePage'
 import Footer from './Footer';
@@ -9,7 +9,7 @@ export default function App() {
 
     return (
         <Router>
-            <Nav />
+            <Header />
             <body>
                 <main>
                     <Routes>
