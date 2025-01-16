@@ -2,7 +2,7 @@
   "name": "my-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://opalsugar.github.io/misinfowb",
+  "homepage": "https://opalsugar.github.io/misinfowb/",
   "type": "module",
   "scripts": {
     "dev": "vite",
