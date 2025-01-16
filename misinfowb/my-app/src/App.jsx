@@ -14,10 +14,10 @@ export default function App() {
                 <main>
                     <Routes>
                         <Route
-                            path="/misinfowb/"
+                            path="/"
                             element={<MainPage />} />
                         <Route
-                            path="/misinfowb/:id"
+                            path="/:id"
                             element={<GamePage />}
                         />
                     </Routes>
