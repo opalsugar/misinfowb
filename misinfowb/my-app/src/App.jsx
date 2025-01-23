@@ -14,7 +14,7 @@ export default function App() {
                 <main>
                     <Routes>
                         <Route
-                            path="/"
+                            path="/misinfowb"
                             element={<MainPage />} />
                         <Route
                             path="/:id"
