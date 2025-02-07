@@ -1,11 +1,11 @@
 export const gameData = [
     {
-        'title': 'Euphorigen Investigation',
+        'title': 'The Euphorigen Investigation',
         'desc': 'A digital media literacy game where players work together to investigate misleading information and uncover the truth behind Euphorigen, a fictional substance. Players collaborate as journalists to verify facts and identify misinformation.',
         'format': ['Online', 'Physical'],
-        'genre': ['Puzzle', 'Role-playing', 'Simulation'],
+        'genre': ['Puzzle', 'Roleplaying', 'Simulation'],
         'type': ['Group'],
-        'Target players': ['Teens', 'Adults'],
+        'age': ['Teens', 'Adults'],
         'Link Labels': ['Website'],
         'Links': ['https://lokisloop.org/games/'],
         'Developer': 'UW CIP',
@@ -17,9 +17,9 @@ export const gameData = [
         'title': 'The Galaxy Escape Room: Mission',
         'desc': 'Galaxy Escape Room is a space-themed puzzle adventure where players must solve a series of challenging puzzles and decipher clues to escape from a futuristic spaceship. Set against the backdrop of outer space, players work against the clock to repair systems, unlock hidden mysteries, and navigate through various rooms to complete their mission before time runs out.',
         'format': ['Online', 'Physical'],
-        'genre': ['Puzzle', 'Role-playing', 'Adventure', 'Escape'],
+        'genre': ['Puzzle', 'Roleplaying', 'Adventure', 'Escape'],
         'type': ['Group'],
-        'Target players': ['Teens', 'Adults'],
+        'age': ['Teens', 'Adults'],
         'Link Labels': ['Website'],
         'Links': ['https://lokisloop.org/games/'],
         'Developer': 'UW CIP',
@@ -31,9 +31,9 @@ export const gameData = [
         'title': 'Libertas Veritas: Freedom and Truth',
         'desc': 'Libertas Veritas: Freedom and Truth is a thought-provoking game where players navigate complex political and social environments to uncover hidden truths while preserving freedom of speech. Through decision-making and investigative tasks, players explore themes of liberty, justice, and misinformation in a dynamic, story-driven setting.',
         'format': ['Online'],
-        'genre': ['Simulation', 'Social', 'Role-playing'],
+        'genre': ['Simulation', 'Social', 'Roleplaying'],
         'type': ['Individual', 'Group'],
-        'Target players': ['Teens', 'Adults'],
+        'age': ['Teens', 'Adults'],
         'Link Labels': ['Website'],
         'Links': ['https://apps.deakin.edu.au/library/dlm/twine/MisinformationGame.html'],
         'Developer': 'Luke Watsford - Deakin University',
@@ -47,7 +47,7 @@ export const gameData = [
         'format': ['Online'],
         'genre': ['Simulation', 'Social', 'Quiz'],
         'type': ['Individual'],
-        'Target players': ['Teens', 'Adults'],
+        'age': ['Teens', 'Adults'],
         'Link Labels': ['Website'],
         'Links': ['https://www.getbadnews.com/en'],
         'Developer': 'DROG (Netherlands)',
@@ -61,7 +61,7 @@ export const gameData = [
         'format': ['Online'],
         'genre': ['Simulation', 'Social'],
         'type': ['Individual'],
-        'Target players': ['Teens', 'Adults'],
+        'age': ['Teens', 'Adults'],
         'Link Labels': ['Website'],
         'Links': ['https://harmonysquare.game/en'],
         'Developer': 'Cambridge Social Decision-Making Lab',
@@ -75,7 +75,7 @@ export const gameData = [
         'format': ['Online'],
         'genre': ['Quiz/Trivia', 'Simulation'],
         'type': ['Individual'],
-        'Target players': ['Teens', 'Adults'],
+        'age': ['Teens', 'Adults'],
         'Link Labels': ['Website'],
         'Links': ['https://fakey.osome.iu.edu/'],
         'Developer': 'India University Network Science Institute (IUNI)',
@@ -96,7 +96,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Adults",
             "Teens"
         ],
@@ -125,7 +125,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -155,7 +155,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -184,7 +184,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -207,13 +207,13 @@ export const gameData = [
         ],
         "genre": [
             "Simulation",
-            "Role-Playing",
+            "Roleplaying",
             "Education"
         ],
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -242,7 +242,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -271,7 +271,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Adults",
             "Teens"
         ],
@@ -299,7 +299,7 @@ export const gameData = [
         "type": [
             "Group play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -328,7 +328,7 @@ export const gameData = [
         "type": [
             "Group play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -357,7 +357,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -385,7 +385,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -413,7 +413,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens"
         ],
         "Link Labels": [
@@ -440,7 +440,7 @@ export const gameData = [
         "type": [
             "Group play"
         ],
-        "Target players": [
+        "age": [
             "Adults"
         ],
         "Link Labels": [
@@ -467,7 +467,7 @@ export const gameData = [
         "type": [
             "Individual play, Group play"
         ],
-        "Target players": [
+        "age": [
             "Teens"
         ],
         "Link Labels": [
@@ -494,7 +494,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults",
             "Elderly"
@@ -523,7 +523,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -550,7 +550,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Adults"
         ],
         "Link Labels": [
@@ -577,7 +577,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Adults",
             "Teens"
         ],
@@ -607,7 +607,7 @@ export const gameData = [
         "type": [
             "Group play, Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -635,7 +635,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Adults"
         ],
         "Link Labels": [
@@ -658,12 +658,12 @@ export const gameData = [
         "genre": [
             "Simulation",
             "Adventure",
-            "Role-Playing"
+            "Roleplaying"
         ],
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -692,7 +692,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -709,7 +709,7 @@ export const gameData = [
     },
     {
         "title": "Cat Park",
-        "desc": "Cat Park is a quick, web-based game where players are introduced to disinformation tactics by campaigning against a fictional \"cat park.\" Through role-playing as an activist opposing this seemingly unnecessary project, players learn to use manipulation techniques like emotional language and divisive tactics. The game then encourages players to counteract the disinformation they created, teaching them about the consequences of misinformation and the importance of media literacy. Developed as an educational tool, it aims to \"pre-bunk\" misinformation by building cognitive resilience through firsthand experience.\n",
+        "desc": "Cat Park is a quick, web-based game where players are introduced to disinformation tactics by campaigning against a fictional \"cat park.\" Through Roleplaying as an activist opposing this seemingly unnecessary project, players learn to use manipulation techniques like emotional language and divisive tactics. The game then encourages players to counteract the disinformation they created, teaching them about the consequences of misinformation and the importance of media literacy. Developed as an educational tool, it aims to \"pre-bunk\" misinformation by building cognitive resilience through firsthand experience.\n",
         "format": [
             "Online"
         ],
@@ -721,7 +721,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -744,13 +744,13 @@ export const gameData = [
         ],
         "genre": [
             "Simulation",
-            "Role-Playing",
+            "Roleplaying",
             "Education"
         ],
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -779,7 +779,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -807,7 +807,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Adults",
             "Teens"
         ],
@@ -830,14 +830,14 @@ export const gameData = [
         ],
         "genre": [
             "Education",
-            "Role-Playing",
+            "Roleplaying",
             "Simulation",
             "Quiz/Trivia"
         ],
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -865,7 +865,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -893,7 +893,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -922,7 +922,7 @@ export const gameData = [
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Pre-teens"
         ],
         "Link Labels": [
@@ -944,13 +944,13 @@ export const gameData = [
         ],
         "genre": [
             "Simulation",
-            "Role-Playing",
+            "Roleplaying",
             "Education"
         ],
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -976,14 +976,14 @@ export const gameData = [
         "genre": [
             "Education",
             "Puzzle",
-            "Role-Playing",
+            "Roleplaying",
             "Simulation",
             "Adventure"
         ],
         "type": [
             "Group play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
@@ -1006,13 +1006,13 @@ export const gameData = [
         ],
         "genre": [
             "Simulation",
-            "Role-Playing",
+            "Roleplaying",
             "Education"
         ],
         "type": [
             "Individual play"
         ],
-        "Target players": [
+        "age": [
             "Teens",
             "Adults"
         ],
