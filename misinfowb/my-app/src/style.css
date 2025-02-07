@@ -275,7 +275,7 @@ header {
     background-repeat: no-repeat;
     color: white;
     position: relative;
-    height: 80vh;
+    min-height: 80vh;
 
 }
 
