@@ -73,9 +73,9 @@ export default function Gallery() {
               </div>
               <Link className="gallery-link" to={`/misinfowb/${item.id}`}>
                 <h1>{item.title}</h1>
-                <Tags labels={['format', 'age', 'type', 'genre']} tagData={item} />
               </Link>
               <p>{item.desc}</p>
+              <Tags labels={['format', 'age', 'type', 'genre']} tagData={item} />
             </div>
           )
 
