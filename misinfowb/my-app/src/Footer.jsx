@@ -14,17 +14,21 @@ export default function Footer() {
                     </div>
                     <p>2025 UW Information School Gamer Group</p>
                 </div>
-                <div className="footer-team">
-                    <p>Team</p>
-                    <p>Renee Singh</p>
-                    <p>Johnny Cho </p>
-                    <p>Nila Ragu</p>
-                    <p>Celina Qu</p>
+                <div className="footer-right">
+                    <div className="footer-team">
+                        <h2>Team</h2>
+                        <p>Renee Singh</p>
+                        <p>Johnny Cho </p>
+                        <p>Nila Ragu</p>
+                        <p>Celina Qu</p>
 
-                </div>
-                <div className="footer-contact">
-                    <p>Contact</p>
-                    <p>yhcho@uw.edu</p>
+                    </div>
+                    <div className="footer-contact">
+                        <h2>Contact</h2>
+                        <p>renees7@uw.edu</p>
+                        <p>yhcho@uw.edu</p>
+                        <p>nragu@uw.edu</p>
+                    </div>
                 </div>
             </div>
         </footer >

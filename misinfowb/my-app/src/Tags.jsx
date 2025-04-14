@@ -18,5 +18,3 @@ export default function Tags({ labels, tagData }) {
     )
 
 }
-
-// tagData[item] ? `${tagData[item]}.png` : 'logo.png'

@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { gameData } from './data';
 import { getImageURL } from './utils/image-util';
 import { Link } from "react-router-dom";
+import Tags from './Tags';
 
 export default function GamePage() {
 
@@ -24,25 +25,33 @@ export default function GamePage() {
             ).map((item) => {
                 return (
                     <div style={{ backgroundImage: `url(${getImageURL(item.img)})` }} className="game-about" >
-                        <Link style={{ textDecoration: 'none' }} to={`/misinfowb/`}>
-                            <div className="back-button">
-                                <p>Back</p>
-                            </div>
-                        </Link>
+                        <div className="back-container">
+                            <Link style={{ textDecoration: 'none' }} to={`/misinfowb/`}>
+                                <div className="back-button">
+                                    <img src={getImageURL("back.png")}></img>
+                                    <p>Back</p>
+                                </div>
+                            </Link>
+                        </div>
                         <div className="game-main">
                             <div className="game-images">
                                 <img src={getImageURL(item.img)}></img>
                             </div>
                             <div className="game-content">
-                                <h1>{item.title}</h1>
-                                <p>Genre: {item.genre.toString()}</p>
-                                <p>Type: {item.type.toString()}</p>
-                                <p>Format: {item.format.toString()}</p>
-                                <p>Target players: {item.age.toString()}</p>
-                                <p>Developer: {item['Developer'].toString()}</p>
-                                <p>Release year: {item['Release Year'].toString()}</p>
-                                <p>{item.desc}</p>
-                                <p>Play Now</p>
+                                <div className="game-descr">
+                                    <h1>{item.title}</h1>
+                                    <Tags labels={['format', 'age', 'type', 'genre']} tagData={item} />
+                                    <div className="game-info-container">
+                                        <div className="game-info-item">Developer</div>
+                                        <div>{item['Developer'].toString()}</div>
+                                    </div>
+                                    <div className="game-info-container">
+                                        <div className="game-info-item">Release Year</div>
+                                        <div>{item['Release Year'].toString()}</div>
+                                    </div>
+                                    <p>{item.desc}</p>
+                                    <div className="play"><p>Play Now!</p></div>
+                                </div>
                             </div>
                         </div>
 
@@ -51,3 +60,5 @@ export default function GamePage() {
         </div>
     )
 }
+
+//                             <img src={getImageURL(item.img)}></img> 

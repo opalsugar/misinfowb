@@ -266,10 +266,10 @@ export const gameData = [
         "genre": [
             "Education",
             "Simulation",
-            "Social Deduction"
+            "Social"
         ],
         "type": [
-            "Individual play"
+            "Individual"
         ],
         "age": [
             "Adults",
