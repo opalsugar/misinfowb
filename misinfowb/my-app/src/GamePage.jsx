@@ -50,7 +50,7 @@ export default function GamePage() {
                                         <div>{item['Release Year'].toString()}</div>
                                     </div>
                                     <p>{item.desc}</p>
-                                    <div className="play"><p>Play Now!</p></div>
+                                    <div className="play"><a href={item['Links'].toString()}><p>Play Now!</p></a></div>
                                 </div>
                             </div>
                         </div>
