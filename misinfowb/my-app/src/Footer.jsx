@@ -21,6 +21,7 @@ export default function Footer() {
                         <p>Johnny Cho </p>
                         <p>Nila Ragu</p>
                         <p>Celina Qu</p>
+                        <p>Sungha Kang</p>
 
                     </div>
                     <div className="footer-contact">
