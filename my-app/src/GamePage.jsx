@@ -31,7 +31,7 @@ export default function GamePage() {
                             </div>
                             <div className="game-main">
                                 <div className="game-images">
-                                    <img src={getImageURL(item.img)}></img>
+                                    <img src={getImageURL(item.img)} alt={item.alt_text}></img>
                                 </div>
                                 <div className="game-content">
                                     <div className="game-descr">

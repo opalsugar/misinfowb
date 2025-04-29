@@ -26,7 +26,7 @@ export const gameData = [
         'Developer': 'UW CIP',
         'Release Year': '2023',
         'img': 'galaxy.png',
-        'alt_text': ' A group of people in suits and ties stands in front of a vibrant purple background.',
+        'alt_text': 'A group of people in suits and ties stands in front of a vibrant purple background.',
         'id': 2
     },
     {
@@ -115,6 +115,7 @@ export const gameData = [
         "Developer": "University of Western Australia",
         "Release Year": "2023",
         "img": "themisinformationgame.png",
+        "alt_text": "A logo representing the web of social media.",
         'id': 7
     },
     {
@@ -144,6 +145,7 @@ export const gameData = [
         "Developer": "DROG (Netherlands)",
         "Release Year": "2020",
         "img": "Chooseyourownfakenews.png",
+        "alt_text": "'Choose your fake news' in blue text on a white background.",
         'id': 8
     },
 
@@ -174,6 +176,7 @@ export const gameData = [
         "Developer": "Amanda Warner (Independent Game Designer)",
         "Release Year": "2017",
         "img": "FakeittoMakeit.png",
+        "alt_text": "'Fake It to Make It' in blue and white text on a blue background.",
         'id': 9
     },
     {
@@ -203,6 +206,7 @@ export const gameData = [
         "Developer": "Aussie Broadband",
         "Release Year": "2020",
         "img": "Lamboozled.png",
+        "alt_text": "'Lamboozled' in black text on a newspaper background, stylized as a lamb or sheep.",
         'id': 10
     },
     {
@@ -232,6 +236,7 @@ export const gameData = [
         "Developer": "RAND Corporation",
         "Release Year": "2019",
         "img": "AgentofInfluence.png",
+        "alt_text": "Seven people standing infront of the 'Agent of Influence' logo.",
         'id': 11
     },
     {
@@ -261,6 +266,7 @@ export const gameData = [
         "Developer": "Cambridge Social Decision-Making Lab",
         "Release Year": "2020",
         "img": "Goviral.png",
+        "alt_text": "White text on an orange background reading 'Go Viral!'",
         'id': 12
     },
     {
@@ -290,6 +296,7 @@ export const gameData = [
         "Developer": "DROG (Netherlands)\ncollaborated with Cambridge University researchers",
         "Release Year": "2018",
         "img": "Fakenews.png",
+        "alt_text": "White text on a TV static background reading 'Fake News: Just the news you want to hear.'",
         'id': 13
     },
     {
@@ -318,6 +325,7 @@ export const gameData = [
         "Developer": "Liar Liar",
         "Release Year": "",
         "img": "LiarLiar.png",
+        "alt_text": "Five people laughing.",
         'id': 14
     },
     {
@@ -347,6 +355,7 @@ export const gameData = [
         "Developer": "Dyce Games",
         "Release Year": "2021",
         "img": "LiarLiarTheGame.png",
+        "alt_text": "A magnifying glass focusing on the letter R in 'Liar Liar', written in white and red text on a black background.",
         'id': 15
     },
     {
@@ -376,6 +385,7 @@ export const gameData = [
         "Developer": "John Cook (Cognitive Scientist, George Mason University Center for Climate Change Communication)",
         "Release Year": "2020",
         "img": "CrankyUncle.jpg",
+        "alt_text": "Two screenshots from the 'Cranky Uncle Game' and a short description of its content.",
         'id': 16
     },
     {
@@ -404,6 +414,7 @@ export const gameData = [
         "Developer": "MediaSmarts",
         "Release Year": "",
         "img": "Breakthefakequiz.png",
+        "alt_text": "'Break the Fake Quiz' in white text on a ombre background of a hippopotamus.",
         'id': 17
     },
     {
@@ -431,6 +442,7 @@ export const gameData = [
         "Developer": "Internet Matters in collaboration with Google",
         "Release Year": "2021",
         "img": "FindtheFake.png",
+        "alt_text": "'Find the Fake' in yellow and green text on a purple background.",
         'id': 18
     },
     {
@@ -457,6 +469,7 @@ export const gameData = [
         "Developer": "",
         "Release Year": "",
         "img": "BlackBox.png",
+        "alt_text": "Screenshot from 'Black Boxes Out of Cardboard' game, including physical board game pieces.",
         'id': 19
     },
     {
@@ -483,6 +496,7 @@ export const gameData = [
         "Developer": "MediaSmarts",
         "Release Year": "2022",
         "img": "ForYou.png",
+        "alt_text": "Three cards reading 'Algorithm', 'Data', and 'Justice' in three different colors next to purple text reading '#ForYou: A Game About Algorithms.'",
         'id': 20
     },
     {
@@ -511,6 +525,7 @@ export const gameData = [
         "Developer": "Jevin West and Carl Bergstrom (University of Washington)",
         "Release Year": "2019",
         "img": "WhichFaceIsReal.png",
+        "alt_text": "Two images of faces- one real, and one fake.",
         'id': 21
     },
     {
@@ -539,6 +554,7 @@ export const gameData = [
         "Developer": "Darren Linvill and Patrick Warren (Clemson University)",
         "Release Year": "2020",
         "img": "SpottheTroll.jpg",
+        "alt_text": "Spot The Troll Logo next to a short description of the game.",
         'id': 22
     },
     {
@@ -565,6 +581,7 @@ export const gameData = [
         "Developer": "",
         "Release Year": "",
         "img": "TheFakeNewsGame.png",
+        "alt_text": "Fake News Game Logo.",
         'id': 23
     },
     {
@@ -593,6 +610,7 @@ export const gameData = [
         "Developer": "Northwesterns University's Kellogg School of Management",
         "Release Year": "2022",
         "img": "DeepFakes.png",
+        "alt_text": "Image of a face with a prompt asking whether it looks AI generated or real.",
         'id': 24
     },
     {
@@ -609,7 +627,7 @@ export const gameData = [
             "Escape"
         ],
         "type": [
-            "Group, Individual"
+            "Group", "Individual"
         ],
         "age": [
             "Teens",
@@ -624,6 +642,7 @@ export const gameData = [
         "Developer": "Polycular",
         "Release Year": "2020",
         "img": "EscapetheFake.jpg",
+        "alt_text": "Female-presenting character infront of a dystopian, cyberpunk backdrop.",
         'id': 25
     },
     {
@@ -651,6 +670,7 @@ export const gameData = [
         "Developer": "Oversight Productions",
         "Release Year": "2020",
         "img": "Floor13.jpeg",
+        "alt_text": "'Floor 13 Deep State' in white text over a black background next to the dark silhouette of a man holding a briefcase.",
         'id': 26
     },
     {
@@ -680,6 +700,7 @@ export const gameData = [
         "Developer": "Unbound Creations",
         "Release Year": "2018",
         "img": "Headliner.png",
+        "alt_text": "Screenshot of gameplay from 'Headliner: NoviNews.'",
         'id': 27
     },
     {
@@ -709,6 +730,7 @@ export const gameData = [
         "Developer": "Murphy's Toast Games",
         "Release Year": "2023",
         "img": "JuliaAScienceJourney.png",
+        "alt_text": "'A Science Journey' in purple text over an orange background next to 6 in-game characters.",
         'id': 28
     },
     {
@@ -738,6 +760,7 @@ export const gameData = [
         "Developer": "Tilt",
         "Release Year": "2022",
         "img": "CatPark.png",
+        "alt_text": "'Cat Park' in pale yellow text on a dark blue background.",
         'id': 29
     },
     {
@@ -767,10 +790,11 @@ export const gameData = [
         "Developer": "Lucas Pope",
         "Release Year": "2012",
         "img": "TheRepubliaTimes.jpg",
+        "alt_text": "'Lets Play The Republia Times' in black text infront of a newspaper over a peach-toned background.",
         'id': 30
     },
     {
-        "title": "Newsfeed-defenders",
+        "title": "Newsfeed Defenders",
         "desc": "NewsFeed Defenders is an interactive online game designed to enhance players' media literacy by teaching them to identify and counteract misinformation within social media feeds. Players assume the role of moderators for a fictional news aggregation site, tasked with evaluating the credibility of various news items, spotting dubious posts, and maintaining the site's integrity while attracting readers. The game educates users on markers of high-quality journalism and common tactics used in deceptive posts, thereby fostering critical thinking skills essential for navigating today's digital information landscape.",
         "format": [
             "Online"
@@ -797,6 +821,7 @@ export const gameData = [
         "Developer": "iCivics and Annenberg Public Policy Center",
         "Release Year": "2018",
         "img": "Newsfeed-defenders.png",
+        "alt_text": "Newsfeed Defenders logo infront of a blue background, next to six in-game characters.",
         'id': 31
     },
     {
@@ -825,6 +850,7 @@ export const gameData = [
         "Developer": "Cinq-Mars Media",
         "Release Year": "2017",
         "img": "PolitiTruth.png",
+        "alt_text": "Red and Blue PolitiFact Logo on a dark background above a short description of the game.",
         'id': 32
     },
     {
@@ -855,6 +881,7 @@ export const gameData = [
         "Developer": "MediaSmarts",
         "Release Year": "2018",
         "img": "RealityCheck.png",
+        "alt_text": "Image depicting different missions featured in 'Reality Check: The Game.'",
         'id': 33
     },
     {
@@ -883,6 +910,7 @@ export const gameData = [
         "Developer": "University of Aveiro",
         "Release Year": "2024",
         "img": "YO-MEDIA.png",
+        "alt_text": "Data Defenders logo infront of a tent in the wilderness.",
         'id': 34
     },
     {
@@ -911,10 +939,11 @@ export const gameData = [
         "Developer": "Rhizome",
         "Release Year": "2023",
         "img": "BabyFaith.png",
+        "alt_text": "Red text infront of a white background reading, 'Faith. I'm Faith. I have the audacity of hope.",
         'id': 35
     },
     {
-        "title": "Google: Be internet Aweseom World with Roblox",
+        "title": "Be Internet Awesome World",
         "desc": "\"Be Internet Awesome World\" is an interactive gaming experience developed by Google in collaboration with Roblox. It aims to educate children about online safety through engaging mini-games that cover topics such as identifying phishing attempts, creating strong passwords, and practicing kindness online.",
         "format": [
             "Online"
@@ -939,6 +968,7 @@ export const gameData = [
         "Developer": "Google, in partnership with Roblox and Super League",
         "Release Year": "2024",
         "img": "Google.png",
+        "alt_text": "White text infront of a landscape background reading 'Google: Be Internet Awesome World.",
         'id': 36
     },
     {
@@ -968,6 +998,7 @@ export const gameData = [
         "Developer": "Molleindustria",
         "Release Year": "2024",
         "img": "TheNewYorkTimesSimulator.jpg",
+        "alt_text": "White stylized text infront of a newspaper background reading 'The New York Times Simulator.'",
         'id': 37
     },
 
@@ -1001,6 +1032,7 @@ export const gameData = [
         "Developer": "UW CIP",
         "Release Year": "2023",
         "img": "BossBaby.png",
+        "alt_text": "Brown text infront of a cream background next to a money mouth face emoji.",
         'id': 38
     },
     {
@@ -1030,6 +1062,7 @@ export const gameData = [
         "Developer": "Yle (the Finnish Broadcasting company, as part of their News Lab initiative)",
         "Release Year": "2019",
         "img": "TrollFactory.png",
+        "alt_text": "Troll Factory Logo next to a wireframe from the game.",
         'id': 39
     }
 ]
