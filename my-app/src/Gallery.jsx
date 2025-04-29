@@ -24,6 +24,9 @@ export default function Gallery() {
     Genre: false
   });
 
+  const [setFiltersList, filtersList] = useState([]);
+  console.log(filtersList);
+
   const handleSearchInput = (e) => {
     setSearch(e.target.value)
   };
@@ -52,6 +55,7 @@ export default function Gallery() {
         </div>
 
         <Dropdown filters={filterData} option={filters} filterActive={filterActive} handleDropdown={handleDropdown} setOption={updateFilters} />
+        <div className="filtertext">{filtersList.toString()}</div>
 
       </div>
       {<div className="gallery-container">

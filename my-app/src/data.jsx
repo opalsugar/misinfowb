@@ -11,6 +11,7 @@ export const gameData = [
         'Developer': 'UW CIP',
         'Release Year': '2021',
         'img': 'euphorigen.jpg',
+        'alt_text': 'Euphorigen Investigation Escape Room Logo featuring a mysterious design and bold typography.',
         'id': 1
     },
     {
@@ -25,6 +26,7 @@ export const gameData = [
         'Developer': 'UW CIP',
         'Release Year': '2023',
         'img': 'galaxy.png',
+        'alt_text': ' A group of people in suits and ties stands in front of a vibrant purple background.',
         'id': 2
     },
     {
@@ -39,6 +41,7 @@ export const gameData = [
         'Developer': 'Luke Watsford - Deakin University',
         'Release Year': '2022',
         'img': 'libertas.png',
+        'alt_text': 'Home page of Libertas Veritas Game.',
         'id': 3
     },
     {
@@ -53,6 +56,7 @@ export const gameData = [
         'Developer': 'DROG (Netherlands)',
         'Release Year': '2018',
         'img': 'badnews.png',
+        'alt_text': "Bold red 'Bad News' logo displayed on a bright yellow background.",
         'id': 4
     },
     {
@@ -67,6 +71,7 @@ export const gameData = [
         'Developer': 'Cambridge Social Decision-Making Lab',
         'Release Year': '2020',
         'img': 'harmonysq.png',
+        'alt_text': 'A lively square featuring colorful art installations promoting the theme of breaking rules.',
         'id': 5
     },
     {
@@ -81,6 +86,7 @@ export const gameData = [
         'Developer': 'India University Network Science Institute (IUNI)',
         'Release Year': '2017',
         'img': 'fakey.png',
+        'alt_text': "Newspaper with the word 'Fakey' on it over a gray background.",
         'id': 6
     },
     {
@@ -171,7 +177,7 @@ export const gameData = [
         'id': 9
     },
     {
-        "title": "Lamboozled",
+        "title": "Lamboozled!",
         "desc": "Lamboozled is a media literacy game where players create and promote their own misleading content to gain followers and money. The game is designed to expose how misinformation spreads online, allowing players to experiment with sensationalism, emotional manipulation, and fake news tactics to see their effects in real-time. The goal is to highlight the dangers of disinformation and teach critical thinking skills.",
         "format": [
             "Online"
@@ -229,7 +235,7 @@ export const gameData = [
         'id': 11
     },
     {
-        "title": "Go viral",
+        "title": "Go Viral!",
         "desc": "Go Viral is a quick, interactive online game designed to help players understand how misinformation spreads on social media. Players assume the role of a disinformation creator, learning tactics such as emotional manipulation, the use of fake experts, and the creation of divisive content. The game aims to inoculate players against real-world misinformation by teaching them how it works.",
         "format": [
             "Online"
@@ -373,7 +379,7 @@ export const gameData = [
         'id': 16
     },
     {
-        "title": "Break the fake quiz",
+        "title": "Break the Fake Quiz",
         "desc": "Break the Fake Quiz is an interactive set of online quizzes designed to help players identify fake news and misinformation by challenging them to differentiate between real and false stories. Developed by MediaSmarts, this game provides various scenarios, encouraging players to apply fact-checking skills to verify information they encounter. The goal is to improve media literacy and teach players how to critically evaluate online content.",
         "format": [
             "Online"
