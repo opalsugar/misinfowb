@@ -73,7 +73,7 @@ export default function Gallery() {
           return (
             <div className="gallery-item">
               <div className="gallery-image">
-                <img src={getImageURL(item.img)} alt="Game" />
+                <img src={getImageURL(item.img)} alt={item.alt_text} />
               </div>
               <Link className="gallery-link" to={`/misinfowb/${item.id}`}>
                 <h1>{item.title}</h1>
