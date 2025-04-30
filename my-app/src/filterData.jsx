@@ -7,7 +7,7 @@ export const filterData = [
     },
     {
         'title': 'Age',
-        'tags': ['Teens', 'Adults', 'Elder', 'Everyone'],
+        'tags': ['Teens', 'Adults', 'Elder'],
         'title-icon': 'Age.png',
         'tags-icons': ['']
     },
@@ -19,7 +19,7 @@ export const filterData = [
     },
     {
         'title': 'Genre',
-        'tags': ['Action', 'Puzzle', 'Roleplaying', 'Simulation'],
+        'tags': ['Action', 'Puzzle', 'Roleplaying', 'Simulation', 'Escape', 'Social', 'Quiz', 'Education', 'Adventure', 'Action', 'Arcade', 'Strategy', 'Puzzle'],
         'title-icon': 'Genre.png',
         'tags-icons': ['']
     }

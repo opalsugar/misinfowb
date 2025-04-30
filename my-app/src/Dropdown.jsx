@@ -7,12 +7,12 @@ import { getImageURL } from './utils/image-util';
 export default function Dropdown({ filters, filterActive, handleDropdown, option, setOption }) {
 
     return (
-        <div className="filter-container">
+        <div className="filter-item-container">
             {
                 filters.map((item) => (
                     <div className="filter-item">
                         <div className={`filter-button ${filterActive[item.title] ? "active" : ""}`} onClick={() => handleDropdown(item.title)}>
-                            <img src={getImageURL(item['title-icon'])} alt="Game" />
+                            <img src={getImageURL(item['title-icon'])} alt="Icon" />
                             <p className="filter-title">{item.title}</p>
                             <p className='dropdown-icon'><FaChevronDown style={{ 'color': 'white' }} /></p>
                         </div>

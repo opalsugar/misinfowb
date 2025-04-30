@@ -11,10 +11,10 @@ export default function Gallery() {
   const [search, setSearch] = useState("");
 
   const [filters, setFilters] = useState({
-    Format: "",
-    Age: "",
-    Type: "",
-    Genre: "",
+    Format: [],
+    Age: [],
+    Type: [],
+    Genre: [],
   });
 
   const [filterActive, setFilterActive] = useState({
@@ -23,9 +23,6 @@ export default function Gallery() {
     Type: false,
     Genre: false
   });
-
-  const [setFiltersList, filtersList] = useState([]);
-  console.log(filtersList);
 
   const handleSearchInput = (e) => {
     setSearch(e.target.value)
@@ -39,10 +36,20 @@ export default function Gallery() {
   };
 
   const updateFilters = (category, tag) => {
+    if (!filters[category].includes(tag)) {
+      setFilters((prevFilters) => ({
+        ...prevFilters,
+        [category]: [...prevFilters[category], tag]
+      }));
+    }
+  };
+
+  const handleDelete = (category, tag) => {
     setFilters((prevFilters) => ({
       ...prevFilters,
-      [category]: tag
-    }));
+      [category]: prevFilters[category].filter(item => { return (item !== tag) })
+    }))
+
   };
 
   return (
@@ -54,21 +61,65 @@ export default function Gallery() {
           <input className="searchbar" onChange={handleSearchInput} value={search} type="text" placeholder="Search by title..." />
         </div>
 
-        <Dropdown filters={filterData} option={filters} filterActive={filterActive} handleDropdown={handleDropdown} setOption={updateFilters} />
-        <div className="filtertext">{filtersList.toString()}</div>
+        <div className="filter-container">
+          <Dropdown filters={filterData} option={filters} filterActive={filterActive} handleDropdown={handleDropdown} setOption={updateFilters} />
+          <div className="active-filters-container">
+            <p>Click the tag to delete active filters:</p>
+            {filters.Format.map((filter) => {
+              return (
+                <div className="active-filter-item" onClick={() => handleDelete("Format", filter)}>
+                  <img src={getImageURL("delete.png")} alt="Icon" />
+                  <p>{filter.toString()}</p>
+                </div>
+              )
+            })}
+            {filters.Age.map((filter) => {
+              return (
+                <div className="active-filter-item" onClick={() => handleDelete("Age", filter)}>
+                  <img src={getImageURL("delete.png")} alt="Icon" />
+                  <p>{filter.toString()}</p>
+                </div>
+              )
+            })}
+            {filters.Type.map((filter) => {
+              return (
+                <div className="active-filter-item" onClick={() => handleDelete("Type", filter)}>
+                  <img src={getImageURL("delete.png")} alt="Icon" />
+                  <p>{filter.toString()}</p>
+                </div>
+              )
+            })}
+            {filters.Genre.map((filter) => {
+              return (
+                <div className="active-filter-item" onClick={() => handleDelete("Genre", filter)}>
+                  <img src={getImageURL("delete.png")} alt="Icon" />
+                  <p>{filter.toString()}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
 
       </div>
       {<div className="gallery-container">
         {gameData.filter((item) => {
           return item.title.toLowerCase().includes(search.toLowerCase());
         }).filter((item) => {
-          return filters.Format === "" || item.format.includes(filters.Format);
+          return filters.Format.every((filter) => {
+            return item.format.includes(filter);
+          })
         }).filter((item) => {
-          return filters.Age === "" || item.age.includes(filters.Age);
+          return filters.Age.every((filter) => {
+            return item.age.includes(filter);
+          })
         }).filter((item) => {
-          return filters.Type === "" || item.type.includes(filters.Type);
+          return filters.Type.every((filter) => {
+            return item.type.includes(filter);
+          })
         }).filter((item) => {
-          return filters.Genre === "" || item.genre.includes(filters.Age);
+          return filters.Genre.every((filter) => {
+            return item.genre.includes(filter);
+          })
         }).map((item) => {
           return (
             <div className="gallery-item">

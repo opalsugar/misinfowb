@@ -11,6 +11,10 @@ body {
     left: 0;
 }
 
+.active-filters {
+    color: white;
+}
+
 /* Header */
 
 .logo-container {
@@ -126,9 +130,15 @@ body {
 
 .filter-container {
     display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.filter-item-container {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.1rem 2rem;
+    gap: 2rem;
 }
 
 .filter-item {
@@ -179,6 +189,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
+    max-height: 5.5rem;
+    overflow-y: auto;
 }
 
 .filter-content p {
@@ -190,6 +202,47 @@ body {
 
 .hidden {
     display: none;
+}
+
+.active-filters-container {
+    background-color: #2B2B32;
+    display: flex;
+    flex-direction: row;
+    min-height: 2.4em;
+    border-radius: 7px;
+    width: fit-content;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.75rem;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    font-weight: 500;
+    margin: auto auto 1rem auto;
+    max-width: 90%;
+}
+
+.active-filter-item {
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 2em;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    margin: auto 0;
+}
+
+.active-filter-item img {
+    object-fit: contain;
+    margin: auto 0;
+    height: 80%;
+}
+
+.active-filter-item p {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    vertical-align: center;
+    margin: auto 0.5rem auto 0;
 }
 
 /* Gallery */
@@ -614,10 +667,16 @@ footer {
 
     .filter-container {
         display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+
+    .filter-item-container {
+        display: flex;
         margin: 0 0 0 1.34rem;
         flex: 1;
         justify-content: left;
-        gap: 2.5rem;
+        gap: 2
     }
 
     .filter-item {
@@ -678,6 +737,12 @@ footer {
 
     .hidden {
         display: none;
+    }
+
+    .active-filters-container {
+        margin-left: 1.4rem;
+        margin-bottom: 2rem;
+        padding: 0 0.5rem;
     }
 
     /* Gallery */
