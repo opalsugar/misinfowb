@@ -1014,7 +1014,8 @@ export const gameData = [
             "Puzzle",
             "Roleplaying",
             "Simulation",
-            "Adventure"
+            "Adventure",
+            "Escape"
         ],
         "type": [
             "Group"
