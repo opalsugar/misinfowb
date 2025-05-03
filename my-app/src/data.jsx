@@ -1,7 +1,7 @@
 export const gameData = [
     {
         'title': 'The Euphorigen Investigation',
-        'desc': 'A digital media literacy game where players work together to investigate misleading information and uncover the truth behind Euphorigen, a fictional substance. Players collaborate as journalists to verify facts and identify misinformation.',
+        'desc': 'For years a supplement called “Euphorigen” has been used by the very wealthy to boost brain activity, which the Government now wants to introduce into the public water supply. A prominent scientist has recorded a statement about whether or not the claims are to be believed. Track down whatever information you can on Euphorigen to uncover the truth and spread the word!',
         'format': ['Online', 'Physical'],
         'genre': ['Puzzle', 'Roleplaying', 'Simulation', 'Escape'],
         'type': ['Group'],
@@ -16,7 +16,7 @@ export const gameData = [
     },
     {
         'title': 'The Galaxy Escape Room: Mission',
-        'desc': 'Galaxy Escape Room is a space-themed puzzle adventure where players must solve a series of challenging puzzles and decipher clues to escape from a futuristic spaceship. Set against the backdrop of outer space, players work against the clock to repair systems, unlock hidden mysteries, and navigate through various rooms to complete their mission before time runs out.',
+        'desc': "PLANET5 is a popular new K-pop group. You’ve just become a new fan and a friend is passing along lots of information about the mistreatment of your favorite band member, and with a new fan campaign to protest launching in less than an hour, you have to track down whatever information you can to uncover the truth and spread the word!",
         'format': ['Online', 'Physical'],
         'genre': ['Puzzle', 'Roleplaying', 'Adventure', 'Escape'],
         'type': ['Group'],
@@ -1004,7 +1004,7 @@ export const gameData = [
 
     {
         "title": "Bo$$BabyKoin Escape Game",
-        "desc": "Bo$$BabyKoin is an interactive escape room game designed to educate players about misinformation and digital scams. In the game, players investigate the legitimacy of a new digital currency promoted by influencer Galen Terry, aiming to prevent a potential financial scam. The game immerses players in scenarios involving manipulated media, social media bots, and deepfakes, enhancing critical thinking and media literacy skills.",
+        "desc": "For the past decade Galen Terry has amassed a considerable fortune by pitching a variety of products to his millions of followers. His latest is a new digital currency, Bo$$BabyKoin. Your friend is a huge fan of Terry, and he has convinced his parents to convert their savings into Bo$$BabyKoin, but he’s starting to have second thoughts. Track down whatever information you can to uncover the truth and spread the word!",
         "format": [
             "Online",
             "Physical"
@@ -1031,6 +1031,37 @@ export const gameData = [
         ],
         "Developer": "UW CIP",
         "Release Year": "2023",
+        "img": "BossBaby.png",
+        "alt_text": "Brown text infront of a cream background next to a money mouth face emoji.",
+        'id': 38
+    },
+    {
+        "title": "ChronoShift Reality Rewritten",
+        "desc": "A simple joke gone wrong—an AI-generated post meant for laughs spirals into a real-life disaster, derailing your friend’s hopes to be elected to the student council. Your mission? Travel back in time, change the flow of information, and fix the mistake. Can you undo the damage and repair your friendship? You’ll need to track down the AI-generated materials before they cause mayhem for your friends!",
+        "format": [
+            "Physical"
+        ],
+        "genre": [
+            "Education",
+            "Puzzle",
+            "Roleplaying",
+            "Escape"
+        ],
+        "type": [
+            "Group"
+        ],
+        "age": [
+            "Teens",
+            "Adults"
+        ],
+        "Link Labels": [
+            "Game Link"
+        ],
+        "Links": [
+            "https://lokisloop.org/in-person-games/"
+        ],
+        "Developer": "UW CIP",
+        "Release Year": "2024",
         "img": "BossBaby.png",
         "alt_text": "Brown text infront of a cream background next to a money mouth face emoji.",
         'id': 38
