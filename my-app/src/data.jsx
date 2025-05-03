@@ -16,7 +16,7 @@ export const gameData = [
     },
     {
         'title': 'The Galaxy Escape Room: Mission',
-        'desc': "PLANET5 is a popular new K-pop group. You’ve just become a new fan and a friend is passing along lots of information about the mistreatment of your favorite band member, and with a new fan campaign to protest launching in less than an hour, you have to track down whatever information you can to uncover the truth and spread the word!",
+        'desc': "PLANET5 is a popular new K-pop group. You've just become a new fan and a friend is passing along lots of information about the mistreatment of your favorite band member, and with a new fan campaign to protest launching in less than an hour, you have to track down whatever information you can to uncover the truth and spread the word!",
         'format': ['Online', 'Physical'],
         'genre': ['Puzzle', 'Roleplaying', 'Adventure', 'Escape'],
         'type': ['Group'],

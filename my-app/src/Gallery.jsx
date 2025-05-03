@@ -126,7 +126,7 @@ export default function Gallery() {
               <div className="gallery-image">
                 <img src={getImageURL(item.img)} alt={item.alt_text} />
               </div>
-              <Link className="gallery-link" to={`/misinfowb/${item.id}`}>
+              <Link className="gallery-link test" to={`/misinfowb/${item.id}`}>
                 <h1>{item.title}</h1>
                 <Tags labels={['format', 'age', 'type', 'genre']} tagData={item} />
               </Link>
